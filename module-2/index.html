@@ -1,180 +1,28 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Assignment Solution for Module 2</title>
-<style>
-/********** Base styles **********/
-* {
-  box-sizing: border-box;
-}
-	body
-	{
-		font-family:  Tahoma, Geneva, sans-serif;
 
-	}
-h1 {
-	font-family: Arial, Helvetica, sans-serif;
-	text-align: center;
-	padding-top: 20px;
-	position: relative;
-}
-/* Simple Responsive Framework. */
+<!doctype html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<title> Assignmnet Module 2 - HTML CSS and Javascript</title>
+	</head>
+	<body>
+		<h1>Our Menu</h1>
 
-p{
-		font-family: Tahoma, Geneva, sans-serif;
-		clear:both;
-}
-.container{
-	background-color: grey;
-	border: 2px solid black;
-	padding: 10px;
-	margin: 10px;	
-}
-#box1in1
-{
-	background-color: pink;
-	border: 2px solid black;
-	font-family: Tahoma, Geneva, sans-serif;
-	position: relative;
-	right:10px;
-	float:right;
-	width: 80px;	
-	text-align: center;
-}
-#box1in2
-{
-	background-color: #f25959;
-	font-weight: bold;
-	color: #fff;
-	border: 2px solid black;
-	font-family: Tahoma, Geneva, sans-serif;
-	position: relative;
-	right:10px;
-	float:right;
-	width: 80px;	
-	text-align: center;
-}
-#box1in3
-{
-	background-color: yellow;
-	font-weight: bold;
-	border: 2px solid black;
-	font-family: Tahoma, Geneva, sans-serif;
-	position: relative;
-	right:10px;
-	float:right;
-	width: 80px;	
-	text-align: center;
-}
-
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-  .col-lg-1, .col-lg-2, .col-lg-3 {
-    float: left;
-    border: 1px solid green;
-  }
-  .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
-  .col-lg-4 {
-    width: 33.33%;
-  }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
-  }
-}
-
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-    border: 1px solid green;
-  }
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16.66%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-  }
-  .col-md-5 {
-    width: 41.66%;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
-  }
-  .col-md-12 {
-    width: 100%;
-  }
-}
-
-</style>
-</head>
-<body>
-<h1> Our Menu </h1>
-<div class="row">
-<div id="box1in1">Chicken</div>
-
-  <div class="container"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
-  
-  <div id="box1in2">Beef</div>
-
-  <div class="container"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
-  <div id="box1in3">Sushi</div>
-
-  <div class="container"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
- </div>
-
-
- </body>
- 
- </html>
+		<div id="row">
+			<section class="col-lg-4 col-md-6 ">
+				<h3>Chicken</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</section>
+			<section class="col-lg-4 col-md-6 ">
+				<h3>Beef</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</section>
+			<section class="col-lg-4 col-md-12 ">
+				<h3>Sushi</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</section>
+		</div>
+	</body>
+		
+</html>
