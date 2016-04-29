@@ -1,0 +1,89 @@
+
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+
+}
+/********** Responsive Code **********/
+/********** Large devices - Desktop **********/
+
+@media (min-width: 992px) {
+
+.col-lg-4{
+  width: 33.33%;
+  float:left;
+}
+
+}
+
+
+/********** Medium devices - Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-4,
+  .col-md-6 {
+    float: left;    
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  
+  .col-md-6 {
+    width: 50%;
+  }
+  
+  }
+
+  /********** Small devices - Mobile **********/
+@media (max-width: 767px){
+  .col-sm-12 {
+    float:left;
+    width: 100%;
+  }
+}
+
+
+#row{
+  
+  width: 100%;
+  padding: 5px;
+  
+}
+
+
+h1{
+  font-family: tahoma;
+  color:#303C50;
+  text-align: center;
+  margin: 45px 0;
+}
+
+section{
+  background-color: grey;
+  border: 10px solid #fff;
+  padding: 0 40px 0;
+}
+
+section>h3 {
+  background-color: #f8f8f0;
+  float: right;
+  color: #000;
+  font-family: georgia;
+  font-size: 1.5em;
+  padding: 10px;
+  clear: both;
+  border: 1px solid #fff;
+  margin-right: 10px;
+}
+
+p{
+  font-family: georgia;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  clear: right;
+  color: #303C50;
+}
+
